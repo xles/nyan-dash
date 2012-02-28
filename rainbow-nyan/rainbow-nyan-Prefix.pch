@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'rainbow-nyan' target in the 'rainbow-nyan' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
