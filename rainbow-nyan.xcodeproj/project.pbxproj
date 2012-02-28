@@ -11,6 +11,16 @@
 		6F97C9C414FCCC0000864CD2 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F97C9C314FCCC0000864CD2 /* ScreenSaver.framework */; };
 		6F97C9CE14FCCC0000864CD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F97C9CC14FCCC0000864CD2 /* InfoPlist.strings */; };
 		6F97C9D214FCCC0000864CD2 /* rainbow_nyanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F97C9D114FCCC0000864CD2 /* rainbow_nyanView.m */; };
+		6F97C9D914FCCFB500864CD2 /* ConfigureSheet.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6F97C9D814FCCFB500864CD2 /* ConfigureSheet.nib */; };
+		6F97C9F314FD39EA00864CD2 /* frame-000001.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F97C9DC14FD39EA00864CD2 /* frame-000001.png */; };
+		6F97C9F414FD39EA00864CD2 /* frame-000002.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F97C9DD14FD39EA00864CD2 /* frame-000002.png */; };
+		6F97C9F514FD39EA00864CD2 /* frame-000003.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F97C9DE14FD39EA00864CD2 /* frame-000003.png */; };
+		6F97C9F614FD39EA00864CD2 /* frame-000004.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F97C9DF14FD39EA00864CD2 /* frame-000004.png */; };
+		6F97C9F714FD39EA00864CD2 /* frame-000005.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F97C9E014FD39EA00864CD2 /* frame-000005.png */; };
+		6F97C9F914FD39EA00864CD2 /* frame-000006.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F97C9E214FD39EA00864CD2 /* frame-000006.png */; };
+		6F97C9FA14FD39EA00864CD2 /* frame-000007.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F97C9E314FD39EA00864CD2 /* frame-000007.png */; };
+		6F97C9FB14FD39EA00864CD2 /* frame-000008.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F97C9E414FD39EA00864CD2 /* frame-000008.png */; };
+		6F97C9FC14FD39EA00864CD2 /* frame-000009.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F97C9E514FD39EA00864CD2 /* frame-000009.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +30,21 @@
 		6F97C9C614FCCC0000864CD2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		6F97C9C714FCCC0000864CD2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6F97C9C814FCCC0000864CD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6F97C9CB14FCCC0000864CD2 /* rainbow-nyan-Info.plist */ = {isa = PBXFileReference; path = "rainbow-nyan-Info.plist"; sourceTree = "<group>"; };
+		6F97C9CB14FCCC0000864CD2 /* rainbow-nyan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rainbow-nyan-Info.plist"; sourceTree = "<group>"; };
 		6F97C9CD14FCCC0000864CD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6F97C9CF14FCCC0000864CD2 /* rainbow-nyan-Prefix.pch */ = {isa = PBXFileReference; path = "rainbow-nyan-Prefix.pch"; sourceTree = "<group>"; };
-		6F97C9D014FCCC0000864CD2 /* rainbow_nyanView.h */ = {isa = PBXFileReference; path = rainbow_nyanView.h; sourceTree = "<group>"; };
-		6F97C9D114FCCC0000864CD2 /* rainbow_nyanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rainbow_nyanView.m; sourceTree = "<group>"; };
+		6F97C9CF14FCCC0000864CD2 /* rainbow-nyan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rainbow-nyan-Prefix.pch"; sourceTree = "<group>"; };
+		6F97C9D014FCCC0000864CD2 /* rainbow_nyanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rainbow_nyanView.h; sourceTree = "<group>"; };
+		6F97C9D114FCCC0000864CD2 /* rainbow_nyanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rainbow_nyanView.m; sourceTree = "<group>"; usesTabs = 1; };
+		6F97C9D814FCCFB500864CD2 /* ConfigureSheet.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ConfigureSheet.nib; path = ../../Downloads/ConfigureSheet.nib; sourceTree = "<group>"; };
+		6F97C9DC14FD39EA00864CD2 /* frame-000001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-000001.png"; sourceTree = "<group>"; };
+		6F97C9DD14FD39EA00864CD2 /* frame-000002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-000002.png"; sourceTree = "<group>"; };
+		6F97C9DE14FD39EA00864CD2 /* frame-000003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-000003.png"; sourceTree = "<group>"; };
+		6F97C9DF14FD39EA00864CD2 /* frame-000004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-000004.png"; sourceTree = "<group>"; };
+		6F97C9E014FD39EA00864CD2 /* frame-000005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-000005.png"; sourceTree = "<group>"; };
+		6F97C9E214FD39EA00864CD2 /* frame-000006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-000006.png"; sourceTree = "<group>"; };
+		6F97C9E314FD39EA00864CD2 /* frame-000007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-000007.png"; sourceTree = "<group>"; };
+		6F97C9E414FD39EA00864CD2 /* frame-000008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-000008.png"; sourceTree = "<group>"; };
+		6F97C9E514FD39EA00864CD2 /* frame-000009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-000009.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,9 +63,11 @@
 		6F97C9B114FCCBFE00864CD2 = {
 			isa = PBXGroup;
 			children = (
+				6F97C9DA14FD39EA00864CD2 /* dash */,
 				6F97C9C914FCCC0000864CD2 /* rainbow-nyan */,
 				6F97C9C014FCCC0000864CD2 /* Frameworks */,
 				6F97C9BF14FCCC0000864CD2 /* Products */,
+				6F97C9D814FCCFB500864CD2 /* ConfigureSheet.nib */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +117,23 @@
 				6F97C9CF14FCCC0000864CD2 /* rainbow-nyan-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F97C9DA14FD39EA00864CD2 /* dash */ = {
+			isa = PBXGroup;
+			children = (
+				6F97C9DC14FD39EA00864CD2 /* frame-000001.png */,
+				6F97C9DD14FD39EA00864CD2 /* frame-000002.png */,
+				6F97C9DE14FD39EA00864CD2 /* frame-000003.png */,
+				6F97C9DF14FD39EA00864CD2 /* frame-000004.png */,
+				6F97C9E014FD39EA00864CD2 /* frame-000005.png */,
+				6F97C9E214FD39EA00864CD2 /* frame-000006.png */,
+				6F97C9E314FD39EA00864CD2 /* frame-000007.png */,
+				6F97C9E414FD39EA00864CD2 /* frame-000008.png */,
+				6F97C9E514FD39EA00864CD2 /* frame-000009.png */,
+			);
+			name = dash;
+			path = ani/My.Little.Pony.Friendship.Is.Magic.S01E13.Fall.Weather;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +199,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F97C9CE14FCCC0000864CD2 /* InfoPlist.strings in Resources */,
+				6F97C9D914FCCFB500864CD2 /* ConfigureSheet.nib in Resources */,
+				6F97C9F314FD39EA00864CD2 /* frame-000001.png in Resources */,
+				6F97C9F414FD39EA00864CD2 /* frame-000002.png in Resources */,
+				6F97C9F514FD39EA00864CD2 /* frame-000003.png in Resources */,
+				6F97C9F614FD39EA00864CD2 /* frame-000004.png in Resources */,
+				6F97C9F714FD39EA00864CD2 /* frame-000005.png in Resources */,
+				6F97C9F914FD39EA00864CD2 /* frame-000006.png in Resources */,
+				6F97C9FA14FD39EA00864CD2 /* frame-000007.png in Resources */,
+				6F97C9FB14FD39EA00864CD2 /* frame-000008.png in Resources */,
+				6F97C9FC14FD39EA00864CD2 /* frame-000009.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,11 @@
 #import <ScreenSaver/ScreenSaver.h>
 
 @interface rainbow_nyanView : ScreenSaverView
+{
+    IBOutlet id configSheet;
+    IBOutlet id drawFilledShapesOption;
+    IBOutlet id drawOutlinedShapesOption;
+    IBOutlet id drawBothOption;
+}
 
 @end
